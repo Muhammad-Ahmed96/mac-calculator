@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mac Calculator</title>
+  <link rel="stylesheet" href="calculator-style.css" />
+</head>
+<body>
+  <div id="calculator" class="border-radius-10 bg-gray">
+    <div id="header" class="flex bg-gray px-5 border-radius-10 py-5">
+      <div class="circle red h-15 mr-5"></div>
+      <div class="circle yellow h-15 mr-5"></div>
+      <div class="circle green h-15 mr-5"></div>
+    </div>
+    <div id="output" class="bg-gray text-right py-5">
+      <span class="result font-size-50 text-white system-font pr-10">123456</span>
+    </div>
+    <div id="buttons">
+      <div class="flex justify-content-between">
+        <button class="btn btn-dark-gray text-white">AC</button>
+        <button class="btn btn-dark-gray text-white">+/-</button>
+        <button class="btn btn-dark-gray text-white">%</button>
+        <button class="btn btn-orange text-white">/</button>
+      </div>
+      <div class="flex justify-content-between">
+        <button class="btn btn-light-gray text-white">7</button>
+        <button class="btn btn-light-gray text-white">8</button>
+        <button class="btn btn-light-gray text-white">9</button>
+        <button class="btn btn-orange text-white">x</button>
+      </div>
+      <div class="flex justify-content-between">
+        <button class="btn btn-light-gray text-white">4</button>
+        <button class="btn btn-light-gray text-white">5</button>
+        <button class="btn btn-light-gray text-white">6</button>
+        <button class="btn btn-orange text-white">-</button>
+      </div>
+      <div class="flex justify-content-between">
+        <button class="btn btn-light-gray text-white">1</button>
+        <button class="btn btn-light-gray text-white">2</button>
+        <button class="btn btn-light-gray text-white">3</button>
+        <button class="btn btn-orange text-white">+</button>
+      </div>
+      <div class="flex justify-content-between">
+        <div class="w-100">
+          <button class="btn btn-light-gray text-white border-bottom-left-radius-10">0</button>
+        </div>
+        <div class="flex w-100">
+          <button class="btn btn-light-gray text-white">.</button>
+          <button class="btn btn-orange text-white border-bottom-right-radius-10">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
